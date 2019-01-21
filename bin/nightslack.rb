@@ -4,7 +4,7 @@ require 'sass'
 
 JS_ERROR_MSG = "Possible js code injection found in remote css... check your repo!".freeze
 theme = 'black-monospaced'
-remote_repo = 'https://cdn.jsdelivr.net/gh/jordanwillis/slack-night-mode/css/raw/black-monospaced.css'
+remote_repo = 'https://cdn.jsdelivr.net/gh/jordanwillis/slack-night-mode/css/raw/variants/black-monospaced.css'
 remote_css = open(remote_repo) { |f| f.read }
 
 # Check for possible js code injection in css
